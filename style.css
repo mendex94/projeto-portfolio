@@ -1,0 +1,242 @@
+@import url(//db.onlinewebfonts.com/c/57d7ce13093381acee3d40c5a512c770?family=Dogica);
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-image: url(images/background.jpg);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    background-color: #5D089F;
+    width: 1440px;    
+}
+
+header img {
+    height: 24px;
+}
+
+nav {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+nav a {
+    font-family: 'Fira Code', monospace;
+    color: #FFFFFF;
+    text-shadow: 5px 5px 0px #000000;
+    font-size: 20px;
+}
+
+nav a span {
+    color: #F25A70;
+}
+
+button {
+    background-color: #F25A70;
+    font-family: "Dogica";
+    color: #FFFFFF;
+    padding: 10px;
+    text-shadow: 0.1em 0.1em rgb(0, 0, 0);
+    box-shadow: 5px 5px 0px #000000;
+    font-size: 20px;
+}
+
+section {
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #414A4A;
+    padding: 30px 0px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 32px;
+    flex-wrap: wrap-reverse;
+}
+
+section img {
+    height: 350px;
+}
+
+h1 {
+    font-family: "Dogica";
+    font-size: 42px;
+    color: #F25A70;
+    text-shadow: 0.1em 0.1em rgb(0, 0, 0);
+}
+
+h2 {
+    font-family: 'Dogica';
+    color: #FFFFFF;
+    text-shadow: 0.1em 0.1em rgb(0, 0, 0);
+}
+
+.box {
+    background-color: #595555;
+    box-shadow: 10px 10px black;
+    padding: 100px 20px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+}
+
+#skills {
+    width: 1440px;
+    height: 400px;
+    background-color: #F25A70;
+    padding: 50px 0px;
+    border-bottom: 5px solid #5D089F;
+}
+
+.titulo-section {
+    color:#FFFFFF;
+    font-size: 25px;
+    font-family: 'Dogica';
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 2em;
+ }
+
+
+.item-skill {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.item-skill h3 {
+    color: #FFFFFF;
+    font-family: "Dogica";
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+
+
+.progress-bar {
+    background: #FFFFFF;
+    height: 40px;
+    width: 367px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.progress-bar:after {
+    content: '';
+    display: block;
+    background: #7C5E99;
+    width: 70%;
+    height: 100%;
+}
+
+#projetos {
+    width: 1440px;
+    height: 300px;
+    background-color: black;
+    border-bottom: 5px solid #F25A70;
+    padding-top: 50px;
+}
+
+#sobre {
+    background-color: #5D089F;
+    width: 1440px;
+    height: 300px;
+    padding-top: 50px;
+    border-bottom: 5px solid #000000;
+}
+
+#sobre p {
+    color: #FFFFFF;
+    font-family: 'Fira Code';
+    text-align: center;
+    width: 1000px;
+    font-size: 20px;
+}
+
+#contatos {
+    width: 1440px;
+    padding-top: 50px;
+    background-color: #595555;
+    padding-bottom: 50px;
+}
+
+#contatos p {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Fira Code';
+}
+
+#form-contato {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+}
+
+
+form div + div {
+        margin-top: 1em;
+}
+
+input, textarea {
+    width: 928px;
+    resize: none;
+    box-sizing: border-box;
+    border: 5px solid #000000;
+    font: 'Fira Code';
+    font-size: 15px;
+}
+
+input {
+    height: 50px;
+}
+
+textarea {
+    height: 318px;
+}
+
+.form-buttom {
+    height: 60px;
+    width: 928px;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #000000;
+    width: 1440px;
+    height: 100px;
+}
+
+
+
+
+
